@@ -14,23 +14,31 @@
   <body>
     <!--Шапка-->
     <header class="header">
-      <p class="header-logo"><span class="logo"> Web </span> Studio</p>
+      <a href="./index.html" class="header-logo"
+        ><span class="logo"> Web </span> Studio</a
+      >
       <nav>
         <ul>
           <li><a href="./index.html" class="haeder-link active">Студия</a></li>
           <li><a href="./Portfolio.html" class="haeder-link">Портфолио</a></li>
           <li><a href="" class="haeder-link">Контакты</a></li>
         </ul>
-        <ul>
-          <li>
-            <img src="./images/envelope.svg" alt="Конверт" />
-            <a href="" class="haeder-link">info@devstudio.com</a>
-          </li>
-          <li>
-            <img src="./images/smartphone.svg" alt="Смартфон" />
-            +38 096 111 11 11
-          </li>
-        </ul>
+        <address>
+          <ul>
+            <li>
+              <a href="" class="haeder-link">
+                <img src="./images/envelope.svg" alt="Конверт" />
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/smartphone.svg" alt="Смартфон" />
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
       </nav>
     </header>
     <main>
@@ -399,17 +407,18 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div>
-        <address class="footer-addres">
-          <p class="footer-logo"><span class="logo"> Web </span> Studio</p>
+      <section>
+        <a href=""><span> Web </span> Studio</a>
+        <address>
           <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <p class="footer-info">info@example.com</p>
-          <p class="footer-info">+38 099 111 11 11</p>
+          <ul>
+            <li><a href="">info@example.com</a></li>
+            <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+          </ul>
         </address>
-      </div>
-
-      <div>
-        <h3 class="footer-h">присоединяйтесь</h3>
+      </section>
+      <section>
+        <h2 class="footer-h">присоединяйтесь</h2>
         <ul>
           <li class="footer-link">
             <a href="" aria-label="ссылка на Инстаграм"
@@ -448,11 +457,11 @@
             /></a>
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div>
-        <h3 class="footer-h">подписаться на рассылку</h3>
-      </div>
+      <section>
+        <h2 class="footer-h">подписаться на рассылку</h2>
+      </section>
 
       <p class="footer-copy">2020 | Developed by GoIT Students</p>
     </footer>
