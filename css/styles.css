@@ -25,6 +25,7 @@ h3,
 h4,
 h5,
 h6 {
+  
   color: var(--primary-color);
 }
 
@@ -33,6 +34,8 @@ a {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -114,6 +117,7 @@ ul {
   padding: 0;
   margin: 0;
 
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -308,11 +312,13 @@ ul {
 
 /*Button*/
 .button-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 
   color: var(--primary-color);
 }
@@ -324,7 +330,7 @@ ul {
 }
 
 /*Picture*/
-.Picture>h1{
+.Picture-visibl{
   visibility: hidden;
 }
 
@@ -333,12 +339,18 @@ ul {
 }
 
 .picture-item h3 {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+
+  color: var(--primary-color);
 }
 
-.picture-item p {
+.picture-p {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
