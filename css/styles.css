@@ -58,6 +58,8 @@ ul {
 }
 
 .haeder-link {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,9 +72,26 @@ ul {
   color: var(--secondery-color);
 }
 
+.haeder-info {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+
+.header-info:hover,
+.haeder-info:focus{
+  color: var(--secondery-color);
+
+}
+
 .active {
   color: var(--secondery-color);
-  border-bottom: 4px solid var(--secondery-color);
+  
 }
 
 /*footer*/
@@ -338,12 +357,13 @@ letter-spacing: 0.03em;
   width= 380px
 }
 
-.picture-item h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+.item-h3 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 
   color: var(--primary-color);
 }
